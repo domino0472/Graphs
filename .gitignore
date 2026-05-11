@@ -1,0 +1,29 @@
+# --- Pliki wykonywalne i binarne ---
+*.exe
+*.out
+*.app
+
+main
+test_kopcow
+
+# --- Pliki obiektowe i kompilacji ---
+*.o
+*.obj
+*.gch
+*.pch
+
+# --- Foldery środowisk programistycznych (IDE) ---
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.user
+Debug/
+Release/
+x64/
+x86/
+
+# --- Pliki tymczasowe i logi ---
+*.log
+*.tmp
+.DS_Store
