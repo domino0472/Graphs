@@ -1,5 +1,4 @@
 
-markdown_content = """<div align="center">
   <h1>C++ Graph Algorithms Engine</h1>
   <blockquote>Analiza wydajności struktur danych w algorytmach grafowych dla systemów o wysokiej dostępności.</blockquote>
 
