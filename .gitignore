@@ -4,7 +4,7 @@
 *.app
 
 main
-test_kopcow
+projekt_grafy
 
 # --- Pliki obiektowe i kompilacji ---
 *.o
