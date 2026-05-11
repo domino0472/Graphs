@@ -1,6 +1,3 @@
-Przepraszam za niedogodność. Oto pełny kod Markdown wygenerowanego pliku `README.md`, który możesz bezpośrednio skopiować:
-
-```markdown
 # Projekt Grafy - Algorytmy i Reprezentacje
 
 ## Opis projektu
@@ -79,5 +76,36 @@ Po pomyślnej kompilacji, program można uruchomić wpisując:
 Po uruchomieniu, w oknie konsoli wyświetlą się podstawowe testy małego grafu oraz wyniki wielkoskalowych benchmarków.
 
 ```
+
+--- TEST POPRAWNOSCI (Maly graf) ---
+BFS z 0 do 5 - trasa: 0 5 
+Kolejnosc DFS: 0 3 5 2 4 1 
+Waga MST: 218
+
+=========================================
+  BENCHMARK: V = 2000, E = 5000
+=========================================
+1. Generowanie grafow (moze chwile potrwac)...
+Gotowe!
+
+--- MACIERZ SASIEDZTWA ---
+Czas dzialania algorytmu Prima: 19 ms
+
+--- LISTA SASIEDZTWA ---
+Czas dzialania algorytmu Prima: 2 ms
+=========================================
+
+=========================================
+  BENCHMARK: V = 2000, E = 50000
+=========================================
+1. Generowanie grafow (moze chwile potrwac)...
+Gotowe!
+
+--- MACIERZ SASIEDZTWA ---
+Czas dzialania algorytmu Prima: 44 ms
+
+--- LISTA SASIEDZTWA ---
+Czas dzialania algorytmu Prima: 25 ms
+=========================================
 
 ```
